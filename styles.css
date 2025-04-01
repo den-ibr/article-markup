@@ -39,10 +39,12 @@ a {
     line-height:36px;
     margin-right: 30px;
     cursor: grab;
+    text-decoration: none;
 }
 
-.selected {
+a:visited {
     color: #d0021b;
+    text-decoration: none;
 }
 
 a:hover {
@@ -88,7 +90,47 @@ code {
 
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    .page-content {
+        margin: auto 20px;
+        width: auto;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .logo {
+        width: 101px;
+        height: 64px;
+        margin: 10px 20px;
+    }
+
+    nav {
+        padding: 20px 20px;
+    }
+
+    nav li {
+        display: block;
+        margin: 0 0 10px 0;
+    }
+
+    a {
+        font-size: 20px;
+    }
+    
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 18px;
+    }
 }
